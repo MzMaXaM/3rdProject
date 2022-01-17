@@ -1,0 +1,26 @@
+body{
+  background-color: cadetblue;
+}
+#siteLogo{
+  font-family: Oleo script;
+  color: gold;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+header a{
+  color: gold;
+  margin: 0px 15px;
+}
+nav ul{
+  display: flex;
+}
+li{
+  list-style-type: none;
+}
