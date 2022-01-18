@@ -1,0 +1,28 @@
+#hero{
+  height: 800px;
+  background-image: url("/assets/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: larger;
+}
+#hero div{
+  width: 80%;
+  background-color: rgba(5, 5, 5, 0.8);
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 auto;
+  color: beige;
+  padding: 25px;
+  position: relative;
+  top: 200px;
+  box-shadow: 4px 5px 8px rgb(3, 3, 3) ;
+}
+#hero a{
+  color: brown;
+  background-color: bisque;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+#hero a:hover{
+  background-color: rgb(235, 205, 168);
+}
