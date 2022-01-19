@@ -1,19 +1,20 @@
-/*  */
-body{
-  background-color: cadetblue;
-  font-family: Raleway;
+/* General */
+body {
+  text-transform: uppercase;
+  font-family: Quicksand;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+/* Header */
 #siteLogo{
   font-family: Oleo script;
   color: gold;
   font-size: 48px;
-  text-transform: uppercase;
 }
-a{
-  text-decoration: none;
-}
-header{
+
+header {
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -21,13 +22,33 @@ header{
   left: 0;
   top: 0;
 }
-header a{
+header a {
   color: gold;
   margin: 0px 15px;
+  font-weight: bold;
+  padding: 5px 8px;
+  border-radius: 3px;
 }
-nav ul{
+header a:hover{
+  background-color: rgba(100, 100, 100, 0.7);
+}
+nav ul {
   display: flex;
 }
-li{
+li {
   list-style-type: none;
+}
+/* Footer */
+footer {
+  background-color: #444;
+  height: 80px;
+}
+footer ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  height: 35px;
+  margin: 20px 10px 0;
 }

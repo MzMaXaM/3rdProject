@@ -1,3 +1,4 @@
+/* Hero */
 #hero{
   height: 800px;
   background-image: url("/assets/ocean.jpg");
@@ -17,6 +18,10 @@
   top: 200px;
   box-shadow: 4px 5px 8px rgb(3, 3, 3) ;
 }
+#hero h1{
+  font-weight: bold;
+  font-size: 40px;
+}
 #hero a{
   color: brown;
   background-color: bisque;
@@ -25,4 +30,38 @@
 }
 #hero a:hover{
   background-color: rgb(235, 205, 168);
+}
+/* Highlights */
+#highlights{
+  background-image: linear-gradient(rgb(59, 182, 162), rgb(235, 235, 189));
+  text-align: center;
+  color: rgb(77, 54, 54);
+  padding-top: 30px;
+}
+#highlights ul{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  padding: 0;
+}
+#highlights li{
+  padding: 15px;
+
+}
+#highlights h2{
+  color: bisque;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0;
+}
+#highlights img{
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 4px 4px 8px #333;
+}
+#highlights strong{
+  color: rgb(58, 211, 211);
 }
