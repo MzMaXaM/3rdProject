@@ -29,8 +29,11 @@ header a {
   padding: 5px 8px;
   border-radius: 3px;
 }
-header a:hover{
+header ul a:hover{
   background-color: rgba(100, 100, 100, 0.7);
+}
+header a:hover{
+  color: rgb(214, 133, 11);
 }
 nav ul {
   display: flex;
