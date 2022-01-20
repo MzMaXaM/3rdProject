@@ -3,16 +3,18 @@ body{
 }
 main{
   margin-top: 75px;
+  width: 90%;
+  margin: 75px auto 20px;
 }
 main li{
   background-color: azure;
-  height: 250px;
+  /* height: 250px; */
   display: flex;
   position: relative;
   border-radius: 6px;
 }
 main li img{
-  height: 100%;
+  height: 300px;
   width: 300px;
   object-fit: cover;
   /* overflow: hidden; */
@@ -22,12 +24,16 @@ main ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 8px;
+  padding: 0;
 }
 main li:nth-of-type(3){
   grid-column: 1/3;
 }
 main li:nth-of-type(6){
   grid-column: 1/3;
+}
+main h2{
+  color: rgb(9, 175, 175);
 }
 .item-content{
   padding: 15px;
@@ -37,14 +43,12 @@ main li:nth-of-type(6){
 }
 .item-content p{
   text-transform: none;
-}
-.actions{
-  text-align: end;
+  color: rgb(134, 26, 26);
 }
 .actions a{
   position: absolute;
-  right: 50px;
-  bottom: 10px;
+  right: 16px;
+  bottom: 8px;
   color: rgb(12, 134, 134);
   background-color: rgb(196, 255, 237);
   padding: 3px 8px;
